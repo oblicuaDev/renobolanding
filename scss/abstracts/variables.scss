@@ -1,0 +1,11 @@
+:root {
+  --font-primary: "Noi Variable Fix";
+  --font-secondary: "Value Serif Pro";
+}
+
+.noi {
+  font-family: var(--font-primary);
+}
+.value {
+  font-family: var(--font-secondary);
+}
