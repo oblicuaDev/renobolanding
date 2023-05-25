@@ -90,10 +90,11 @@ section{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-    img{
-        
+    p{
+        font-size:2em;
+        text-align: center;
     }
+
 }
 
 section,aside{
@@ -101,4 +102,13 @@ section,aside{
     display:flex;
     height:100vh;
     overflow:hidden;
+}
+header{
+    position:absolute;
+    bottom:20px;
+    right:20px;
+    width:300px;
+    img{
+
+    }
 }

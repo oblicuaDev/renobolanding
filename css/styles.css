@@ -766,10 +766,22 @@ section {
   justify-content: center;
   flex-direction: column;
 }
+section p {
+  font-size: 2em;
+  text-align: center;
+}
+
 section, aside {
   display: flex;
   height: 100vh;
   overflow: hidden;
+}
+
+header {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
 }
 
 /*# sourceMappingURL=styles.css.map */
